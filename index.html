@@ -12,16 +12,16 @@
 <body>
     <div class="container">
         <div class="row">
-        <img style="-webkit-user-select: none; display: block; margin: 0%; padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); cursor: zoom-out;" src="https://img.wallpapersafari.com/desktop/1440/900/85/75/bE7KmO.jpg" width="1440" height="900">
+        <img style="-webkit-user-select: none; display: block; margin: 0%; padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); cursor:pointer;" src="https://img.wallpapersafari.com/desktop/1440/900/85/75/bE7KmO.jpg" width="1440" height="900">
             <div class="user-block">
-                <img class="poke-title" src="https://static1.textcraft.net/data1/7/1/71092191f0373cd080f838b0aac845f3509d97b4da39a3ee5e6b4b0d3255bfef95601890afd80709da39a3ee5e6b4b0d3255bfef95601890afd80709a76ecc6d7fa699e7d9eecda264a97927.png">
+                <img class="poke-title" src="assets/Welcome.png">
                 <h3><b>Congratulations on being selected to compete in this years Tournament of Champions! What an Honor!
                 Before you begin you must select the Pokemon who will compete for you on your starting Poke-Team!
                 The tournament rules allow you to compete with any available pokemon from the surounding gyms, so you should have a quite a selection!
                 For the First Round of this years Tournament you will need to build a Team around one elemental Type.
                 Select a Type below to build a specific Type-based Team, or hit the Random Starter button below to let Prof Oak's Poke-Team Generator choose for you! After you make your selection, open one of the 6 Pokeballs to see you Pokemon!<br>
-                Good Luck Trainer! Lets Get Started!</b></b></h3>
-                <hr height="20px" style="color:black !important">
+                Good Luck Trainer! Lets Get Started!</b></h3>
+                <!-- <hr height="80px" style="color:black !important"> -->
                 <div class="container">
                     <div class="row_1">
                         <div class="col-sm-2" class="text-center">
@@ -43,35 +43,35 @@
                             <input type="image" id="pokeball" alt="pokeball" src="assets/Pokeball.png" width="110px" height="auto">
                         </div>
                     </div>
-                <!-- </hr> -->
             </div>
                     <h2><b><u>Open a Pokeball to See Your Pokemon!</u></b></h2>
-                <!-- <hr height="20px" style="color:black !important"> -->
                 <img class="whose-that" src="https://media4.giphy.com/media/DRfu7BT8ZK1uo/giphy.gif?cid=790b7611e210bd56533050c23ef0bb8c8659528448ce0396&rid=giphy.gif&ct=g" alt="Loading" title="Whose That Pokemon!?"/>
                 <div class="row-3">
                 <button type="button" style="color:rgb(53, 34, 178)" class="gbfont" syle="content-align:center" class="text-center">Random Starter</button>
             </div>
-                <div class='container-flex' class="type-buttons">
-		<button type="button" text-align="center"><span class="type fire left">fire</span></button>
-        <button type="button" text-align="center"><span class="type water left">water</span></button>
-        <button type="button" text-align="center"><span class="type electric left">electric</span></button>
-        <button type="button" text-align="center"><span class="type grass left">grass</span></button>
-        <button type="button" text-align="center"><span class="type ice left">ice</span></button>
-        <button type="button" text-align="center"><span class="type ground left">ground</span></button>
-        <button type="button"><span class="type flying left">flying</span></button>
-        <button type="button"><span class="type ghost left">ghost</span></button>
-        <button type="button"><span class="type rock left">rock</span></button>
-        <button type="button"><span class="type fighting left">fighting</span></button>
-        <button type="button"><span class="type poison left">poison</span></button>
-        <button type="button"><span class="type psychic left">psychic</span></button>
-        <button type="button"><span class="type bug left">bug</span></button>
-        <button type="button"><span class="type dark left">dark</span></button>
-        <button type="button"><span class="type steel left">steel</span></button>
-        <button type="button"><span class="type dragon left">dragon</span></button>
-        <button type="button"><span class="type fairy left">fairy</span></button>
-		<div class="clear"></div> -->
-            </div> 
+    <div class='container-flex' class="type-buttons">
+        <div class="row_2">
+            <button type="button"><span class="type fire left">fire</span></button>
+            <button type="button"><span class="type water left">water</span></button>
+            <button type="button"><span class="type electric left">electric</span></button>
+            <button type="button"><span class="type grass left">grass</span></button>
+            <button type="button"><span class="type ice left">ice</span></button>
+            <button type="button"><span class="type ground left">ground</span></button>
+            <button type="button"><span class="type flying left">flying</span></button>
+            <button type="button"><span class="type ghost left">ghost</span></button>
+            <button type="button"><span class="type rock left">rock</span></button>
+            <button type="button"><span class="type fighting left">fighting</span></button>
+            <button type="button"><span class="type poison left">poison</span></button>
+            <button type="button"><span class="type psychic left">psychic</span></button>
+            <button type="button"><span class="type bug left">bug</span></button>
+            <button type="button"><span class="type dark left">dark</span></button>
+            <button type="button"><span class="type steel left">steel</span></button>
+            <button type="button"><span class="type dragon left">dragon</span></button>
+            <button type="button"><span class="type fairy left">fairy</span></button>
         </div>
+        <!-- <div class="clear"></div> 
+
+            </div>  -->
     </div>
 </div>
 <!-- <p>
@@ -79,7 +79,8 @@
   </p> -->
 </body>
 <footer>
-    <input type="button" class="button">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main.js" async defer></script>
     <h5>Prof Oaks Poke-Team Generator is brought to you by NDL Solutions</h5>
 </footer>
 </html>
@@ -123,6 +124,10 @@
         <button type="button"><span class="type grass left">grass</span></button>              
         </div> -->
 
+
+
+        <!-- <audio src="MUSIC.mp3" autoplay loop></audio> -->
+        <!-- <audio src="assets/Theme.mp3" autoplay loop></audio> -->
 
 
 
