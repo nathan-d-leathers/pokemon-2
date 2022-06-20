@@ -1,14 +1,11 @@
-*{
+body {
+    background-color: firebrick;
     margin: 0px;
-    border: 3%;
+    border: 2%;
     padding: 0px;
 }
 
-body {
-    background-color: firebrick;
-}
-
-img {
+.banner {
     max-width: 100%;
     height: auto;
   }
@@ -17,19 +14,16 @@ img {
       background: rgb(239, 241, 93);
       height: auto;
       margin: 0px;
-      /* border: 10px cornflowerblue !important; */
   }
 
   
 .poke-title {
     margin: 3%;
     display: inline-block;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 0;
+    margin-right: 0;
     width: 100%; 
 }
-
-
 
 h1 {
     padding: 0px;
@@ -39,11 +33,11 @@ h1 {
 }
 
 .row-1 {
-    /* margin-top: 4%; */
     width: 100%;
     height: auto;
+    margin-left: 0;
+    margin-right: 0;
 }
-
 
 
 h2 {
@@ -51,8 +45,6 @@ h2 {
     text-align: center;
     font-stretch: expanded; 
 }
-
-
 
 .whose-that {
     margin-top: 8%;
@@ -66,8 +58,26 @@ h2 {
 
 }
 
+.random {
+    background-color: #f8d030;
+    font-family: "Early Gameboy";
+    margin: 0px;
+     padding: 10px 16px 10px 16px;
+     display: inline-block;
+     border-radius: 12px;
+     -webkit-border-radius: 12px; 
+     -moz-border-radius: 12px;
+     -o-border-radius: 12px;
+     font-size: 20px;
+     color: #FFF;
+     border: 4px solid #44685E;
+     border-color: #1F6EE9;
+ 
+ }
+
+
 .row-3 {
-    width: 190px; 
+    width: 200px; 
     margin: 0 auto;
     margin-bottom: 40px;
 }
@@ -80,38 +90,11 @@ h3 {
     margin-right: 2%;
 }
 
-.gbfont {
-   background-color: #f8d030;
-   font-family: "Early Gameboy";
-   margin: 10px;
-    padding: 10px 16px 10px 16px;
-    display: inline-block;
-    border-radius: 12px;
-    -webkit-border-radius: 12px; 
-    -moz-border-radius: 12px;
-    -o-border-radius: 12px;
-    font-size: 20px;
-    color: #FFF;
-    border: 4px solid #44685E;
-    border-color: rgb(41, 44, 209);
-
-}
-
 .container-flex {
     flex-wrap: wrap;
     justify-content: center
 }
 
-/* .pokeball {
- align-self: center;
- background-image: rgba(255, 0, 0, 0);
-} */
-
-.pokeball {
-    max-height: 5%;
-    max-width: 5%;
-    /* background-color: transparent; */
-}
 
 .col-sm-2 {
     margin-top: 5%;
@@ -138,7 +121,7 @@ h3 {
    }
    
 .type {
-       margin: 5px;
+       margin: 0 auto;
        margin-top: 5px;
        padding: 10px 16px 10px 16px;
        display: inline-block;
@@ -153,13 +136,8 @@ h3 {
        border: 4px solid #44685E;
        width: 130px; 
        cursor: pointer;
-    /* margin: 0 auto; */
    }
    
-   .normal {
-       background-color: #A8A878;
-       border: 4px solid #6D6D4E;
-   }
    
    .fire {
        background-color: #F08030;
@@ -246,6 +224,11 @@ h3 {
     border: 4px solid #4924A1;
 }
 
+    .normal {
+        background-color: #A8A878;
+        border: 4px solid #6D6D4E;
+    }
+
 
 /* button {
         background-color: rgb(245, 227, 29);
@@ -259,3 +242,9 @@ h3 {
         cursor: pointer;
         border-radius: 16px;
 } */
+
+.spothold {
+    height: 300px;
+    width: 400px;
+    align-self: center;
+}
