@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.0.0-alpha.1/axios.min.js" integrity="sha512-xIPqqrfvUAc/Cspuj7Bq0UtHNo/5qkdyngx6Vwt+tmbvTLDszzXM0G6c91LXmGrRx8KEPulT+AfOOez+TeVylg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main_2.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Pokemon Theme Team</title>
@@ -23,29 +23,29 @@
                 Good Luck Trainer! Lets Get Started!</b></h3>
                 </div>
                 <div class="d-flex justify-content-around bd-highlight mb-2 mt-2">
-                    <div class="col-sm-2" class="text-center">
-                        <img id="pokeball_1" alt="poke_1" src="assets/Pokeball.png">
-                        <h4>Pokemon #1</h4>
+                    <div class="col-sm-2" class="text-center" id="pokemon_container">
+                        <img id="pokeball" alt="poke_1" src="assets/Pokeball.png">
+                        <h4 class="poke_name">Pokemon #1</h4>
                     </div>
-                    <div class="col-sm-2" class="text-center">
+                    <div class="col-sm-2" class="text-center" id="pokemon_container">
                         <img id="pokeball" alt="poke_2" src="assets/Pokeball.png"/>
-                        <h4>Pokemon #2</h4>
+                        <h4 class="poke_name">Pokemon #2</h4>
                     </div>
-                    <div class="col-sm-2" class="text-center">
+                    <div class="col-sm-2" class="text-center" id="pokemon_container">
                         <img id="pokeball" alt="poke_3" src="assets/Pokeball.png"/>
-                        <h4>Pokemon #3</h4>
+                        <h4 class="poke_name">Pokemon #3</h4>
                     </div>
-                    <div class="col-sm-2" class="text-center">
+                    <div class="col-sm-2" class="text-center" id="pokemon_container">
                         <img id="pokeball" alt="poke_4" src="assets/Pokeball.png"/>
-                        <h4>Pokemon #4</h4>
+                        <h4 class="poke_name">Pokemon #4</h4>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-sm-2" class="text-center" id="pokemon_container">
                         <img id="pokeball" alt="poke_5" src="assets/Pokeball.png"/>
-                        <h4>Pokemon #5</h4>
+                        <h4 class="poke_name">Pokemon #5</h4>
                     </div>
-                    <div class="col-sm-2" class="text-center">
+                    <div class="col-sm-2" class="text-center" id="pokemon_container">
                         <img id="pokeball" alt="poke_6" src="assets/Pokeball.png"/>
-                        <h4>Pokemon #6</h4>
+                        <h4 class="poke_name">Pokemon #6</h4>
                     </div>
                 </div>
                 <img class="whose-that" src="https://media4.giphy.com/media/DRfu7BT8ZK1uo/giphy.gif?cid=790b7611e210bd56533050c23ef0bb8c8659528448ce0396&rid=giphy.gif&ct=g" alt="Loading" title="Whose That Pokemon!?"/>
@@ -111,8 +111,6 @@
      </div>
 </body>
 <footer>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="main_2.js"></script>
     <h5 style="text-align:center">Prof Oak's Poke-Team Generator is brought to you by NDL Solutions</h5>
 </footer>
 </html>
