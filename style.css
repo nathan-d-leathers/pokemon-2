@@ -3,6 +3,7 @@ body {
     margin: 0px;
     border: 2%;
     padding: 0px;
+    height:auto;
 }
 
 .banner {
@@ -16,7 +17,6 @@ body {
       margin: 0px;
   }
 
-  
 .poke-title {
     margin: 3%;
     display: inline-block;
@@ -32,22 +32,37 @@ h1 {
     font-stretch: expanded;
 }
 
+
+
 .row-1 {
     width: 100%;
     height: auto;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 auto;
 }
 
+.col-sm-2 {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#pokeball {
+    max-width: 115px;
+    min-width: 90px;
+    height: auto;
+    margin-bottom: 10%;
+
+
+}
 
 h2 {
-    margin-top: 6%;
     text-align: center;
     font-stretch: expanded; 
 }
 
 .whose-that {
-    margin-top: 8%;
+    margin-top: 6%;
     margin-bottom: 3%;
     display: block;
     position: relative;
@@ -58,23 +73,44 @@ h2 {
 
 }
 
+.row-3 {
+    /* width: auto;
+    margin: 0 auto; */
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    margin-bottom: 40px;
+    display: block;
+}
+
 .random {
     background-color: #f8d030;
     font-family: "Early Gameboy";
-    margin: 0px;
+    margin: 0px; 
      padding: 10px 16px 10px 16px;
-     display: inline-block;
      border-radius: 12px;
      -webkit-border-radius: 12px; 
      -moz-border-radius: 12px;
      -o-border-radius: 12px;
-     font-size: 20px;
+     font-size: 18px;
      color: #FFF;
      border: 4px solid #44685E;
      border-color: #1F6EE9;
+     position:relative;
  
  }
 
+ .row-2 {
+    width: 100%;
+    height: auto;
+    padding-top: 10%;
+}
+
+h2 {
+    margin-top: 10%;
+    text-align: center;
+    font-stretch: expanded; 
+}
 
 .row-3 {
     width: 200px; 
@@ -82,13 +118,295 @@ h2 {
     margin-bottom: 40px;
 }
 
+.random {
+    background-color: #f8d030;
+    font-family: "Early Gameboy";
+    margin: 0px;
+     padding: 10px 16px 10px 16px;
+     border-radius: 12px;
+     -webkit-border-radius: 12px; 
+     -moz-border-radius: 12px;
+     -o-border-radius: 12px;
+     font-size: 20px;
+     color: #FFF;
+     border: 4px solid;
+     border-color: #1F6EE9;
+     width: 200px;
+ }
 
-
-h3 {
-    text-align: center;
-    margin-left: 2%;
-    margin-right: 2%;
+ .fire {
+    background-color: #F08030;
+    border: 4px solid #9C531F;
+    font-family: "Early Gameboy";
+    margin: 0px;
+     padding: 10px 16px 10px 16px;
+     border-radius: 12px;
+     -webkit-border-radius: 12px; 
+     -moz-border-radius: 12px;
+     -o-border-radius: 12px;
+     font-size: 20px;
+     color: #FFF;
+     width: 200px;
 }
+
+.water {
+    background-color: #6890F0;
+    border: 4px solid #445E9C;
+    font-family: "Early Gameboy";
+    margin: 0px;
+     padding: 10px 16px 10px 16px;
+     border-radius: 12px;
+     -webkit-border-radius: 12px; 
+     -moz-border-radius: 12px;
+     -o-border-radius: 12px;
+     font-size: 20px;
+     color: #FFF;
+     width: 200px;
+}
+
+.electric {
+    background-color: #F8D030;
+    border: 4px solid #A1871F;
+    font-family: "Early Gameboy";
+    margin: 0px;
+     padding: 10px 16px 10px 16px;
+     border-radius: 12px;
+     -webkit-border-radius: 12px; 
+     -moz-border-radius: 12px;
+     -o-border-radius: 12px;
+     font-size: 20px;
+     color: #FFF;
+     width: 200px;
+}
+
+.grass {
+    background-color: #78C850;
+    border: 4px solid #4E8234;
+    font-family: "Early Gameboy";
+    margin: 0px;
+     padding: 10px 16px 10px 16px;
+     border-radius: 12px;
+     -webkit-border-radius: 12px; 
+     -moz-border-radius: 12px;
+     -o-border-radius: 12px;
+     font-size: 20px;
+     color: #FFF;
+     width: 200px;
+}
+
+.ice {
+    background-color: #98D8D8;
+    border: 4px solid #638D8D;
+    font-family: "Early Gameboy";
+    margin: 0px;
+     padding: 10px 16px 10px 16px;
+     border-radius: 12px;
+     -webkit-border-radius: 12px; 
+     -moz-border-radius: 12px;
+     -o-border-radius: 12px;
+     font-size: 20px;
+     color: #FFF;
+     width: 200px;
+}
+
+.ground {
+    background-color: #E0C068;
+    border: 4px solid #927D44;
+    font-family: "Early Gameboy";
+    margin: 0px;
+     padding: 10px 16px 10px 16px;
+     border-radius: 12px;
+     -webkit-border-radius: 12px; 
+     -moz-border-radius: 12px;
+     -o-border-radius: 12px;
+     font-size: 20px;
+     color: #FFF;
+     width: 200px;
+}
+
+.flying {
+    background-color: #A890F0;
+    border: 4px solid #6D5E9C;
+    font-family: "Early Gameboy";
+    margin: 0px;
+     padding: 10px 16px 10px 16px;
+     border-radius: 12px;
+     -webkit-border-radius: 12px; 
+     -moz-border-radius: 12px;
+     -o-border-radius: 12px;
+     font-size: 20px;
+     color: #FFF;
+     width: 200px;
+}
+
+.ghost {
+    background-color: #705898;
+    border: 4px solid #493963;
+    font-family: "Early Gameboy";
+    margin: 0px;
+     padding: 10px 16px 10px 16px;
+     border-radius: 12px;
+     -webkit-border-radius: 12px; 
+     -moz-border-radius: 12px;
+     -o-border-radius: 12px;
+     font-size: 20px;
+     color: #FFF;
+     width: 200px;
+}
+
+.rock {
+    background-color: #B8A038;
+    border: 4px solid #786824;
+    font-family: "Early Gameboy";
+    margin: 0px;
+     padding: 10px 16px 10px 16px;
+     border-radius: 12px;
+     -webkit-border-radius: 12px; 
+     -moz-border-radius: 12px;
+     -o-border-radius: 12px;
+     font-size: 20px;
+     color: #FFF;
+     width: 200px;
+}
+
+.fighting {
+    background-color: #C03028;
+    border: 4px solid #7D1F1A;
+    font-family: "Early Gameboy";
+    margin: 0px;
+     padding: 10px 16px 10px 16px;
+     border-radius: 12px;
+     -webkit-border-radius: 12px; 
+     -moz-border-radius: 12px;
+     -o-border-radius: 12px;
+     font-size: 20px;
+     color: #FFF;
+     width: 200px;
+}
+
+.poison {
+    background-color: #A040A0;
+    border: 4px solid #682A68;
+    font-family: "Early Gameboy";
+    margin: 0px;
+     padding: 10px 16px 10px 16px;
+     border-radius: 12px;
+     -webkit-border-radius: 12px; 
+     -moz-border-radius: 12px;
+     -o-border-radius: 12px;
+     font-size: 20px;
+     color: #FFF;
+     width: 200px;
+}
+
+.psychic {
+    background-color: #F85888;
+    border: 4px solid #A13959;
+    font-family: "Early Gameboy";
+    margin: 0px;
+     padding: 10px 16px 10px 16px;
+     border-radius: 12px;
+     -webkit-border-radius: 12px; 
+     -moz-border-radius: 12px;
+     -o-border-radius: 12px;
+     font-size: 20px;
+     color: #FFF;
+     width: 200px;
+}
+
+.bug {
+    background-color: #A8B820;
+    border: 4px solid #6D7815;
+    font-family: "Early Gameboy";
+    margin: 0px;
+     padding: 10px 16px 10px 16px;
+     border-radius: 12px;
+     -webkit-border-radius: 12px; 
+     -moz-border-radius: 12px;
+     -o-border-radius: 12px;
+     font-size: 20px;
+     color: #FFF;
+     width: 200px;
+}
+
+.dark {
+    background-color: #705848;
+    border: 4px solid #49392F;
+    font-family: "Early Gameboy";
+    margin: 0px;
+     padding: 10px 16px 10px 16px;
+     border-radius: 12px;
+     -webkit-border-radius: 12px; 
+     -moz-border-radius: 12px;
+     -o-border-radius: 12px;
+     font-size: 20px;
+     color: #FFF;
+     width: 200px;
+}
+
+.steel {
+    background-color: #B8B8D0;
+    border: 4px solid #787887;
+    font-family: "Early Gameboy";
+    margin: 0px;
+     padding: 10px 16px 10px 16px;
+     border-radius: 12px;
+     -webkit-border-radius: 12px; 
+     -moz-border-radius: 12px;
+     -o-border-radius: 12px;
+     font-size: 20px;
+     color: #FFF;
+     width: 200px;
+}
+
+.dragon {
+    background-color: #7038F8;
+    border: 4px solid #4924A1;
+    font-family: "Early Gameboy";
+    margin: 0px;
+     padding: 10px 16px 10px 16px;
+     border-radius: 12px;
+     -webkit-border-radius: 12px; 
+     -moz-border-radius: 12px;
+     -o-border-radius: 12px;
+     font-size: 20px;
+     color: #FFF;
+     width: 200px;
+}
+
+.fairy {
+ background-color: #d875e7;
+ border: 4px solid #4924A1;
+ font-family: "Early Gameboy";
+    margin: 0px;
+     padding: 10px 16px 10px 16px;
+     border-radius: 12px;
+     -webkit-border-radius: 12px; 
+     -moz-border-radius: 12px;
+     -o-border-radius: 12px;
+     font-size: 20px;
+     color: #FFF;
+     width: 200px;
+}
+
+ .normal {
+     background-color: #A8A878;
+     border: 4px solid #6D6D4E;
+     font-family: "Early Gameboy";
+    margin: 0px;
+     padding: 10px 16px 10px 16px;
+     border-radius: 12px;
+     -webkit-border-radius: 12px; 
+     -moz-border-radius: 12px;
+     -o-border-radius: 12px;
+     font-size: 20px;
+     color: #FFF;
+     width: 200px;
+ } */
+
+
+
+
 
 /* .container-flex {
     /* flex-wrap: wrap; */
@@ -96,54 +414,46 @@ h3 {
 
 
 
-.col-sm-2 {
-    margin-top: 5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
 
-.row-2 {
-    width: 100%;
-    height: auto;
-}
 
-.type-buttons {
-    display: inline-block;
-    margin-left: auto;
+
+
+/* .type-buttons {
+    /* display: inline-block; */
+    /* margin-left: auto;
     margin-right: auto;
-    align-items: flex;
+    align-items: center;
 
-}
+}  
 
 .clear {
     clear: both;
    }
+   */
+
+
    
-.type {
-       margin: 0 auto;
-       margin-top: 5px;
-       padding: 10px 16px 10px 16px;
+/* .type {
+       /* margin: 0 auto; */
+       /* margin-top: 5px; */
+       /* padding: 20px 36px 20px 36px;
        display: inline-block;
-       border-radius: 12px;
-       -webkit-border-radius: 12px; 
+       border-radius: 12px; */
+       /* -webkit-border-radius: 12px; 
        -moz-border-radius: 12px;
-       -o-border-radius: 12px;
-       font-size: 12px;
+       -o-border-radius: 12px; */
+       /* font-size: 12px;
        font-family:'Early Gameboy';
-       color: #FFF;
-       background-color: #68A090;
-       border: 4px solid #44685E;
-       width: 100%; 
-       cursor: pointer;
-   }
+       color: #FFF; */
+       /* background-color: #68A090; */
+       /* border: 4px solid #44685E; */
+       /* width: 100%; 
+       cursor: pointer; */
+   /* } */ 
    
    
-   .fire {
-       background-color: #F08030;
-       border: 4px solid #9C531F;
-   }
    
+/*     
    .water {
        background-color: #6890F0;
        border: 4px solid #445E9C;
@@ -227,8 +537,8 @@ h3 {
     .normal {
         background-color: #A8A878;
         border: 4px solid #6D6D4E;
-    }
-
+    } */
+ 
 
 /* button {
         background-color: rgb(245, 227, 29);
@@ -241,10 +551,4 @@ h3 {
         margin: 4px 2px;
         cursor: pointer;
         border-radius: 16px;
-} */
-
-/* .spothold {
-    height: 300px;
-    width: 400px;
-    align-self: center;
 } */

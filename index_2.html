@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.0.0-alpha.1/axios.min.js" integrity="sha512-xIPqqrfvUAc/Cspuj7Bq0UtHNo/5qkdyngx6Vwt+tmbvTLDszzXM0G6c91LXmGrRx8KEPulT+AfOOez+TeVylg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokemon Theme Team</title>
+</head>
+<body>
+    <div class="container">
+        <img class="banner" src="https://img.wallpapersafari.com/desktop/1440/900/85/75/bE7KmO.jpg" width="1440" height="900">
+            <div class="user-block">
+                <img class="poke-title" src="assets/Welcome.png">
+                <div class="row-1" style="text-align:center;">
+                <h3><b>Congratulations on being selected to compete in this years Tournament of Champions! What an Honor!
+                Before you begin you must select the Pokemon who will compete for you on your starting Poke-Team!
+                The tournament rules allow you to compete with any available pokemon from the surounding gyms, so you should have a quite a selection!
+                For the First Round of this years Tournament you will need to build a Team around one elemental Type.
+                Select a Type below to build a specific Type-based Team, or hit the Random Type button below to let Prof Oak's Poke-Team Generator choose for you! After you make your selection, open one of the 6 Pokeballs to see you Pokemon!<br>
+                Good Luck Trainer! Lets Get Started!</b></h3>
+                </div>
+                <div class="d-flex justify-content-around bd-highlight mb-2">
+                    <div class="col-sm-2" class="text-center">
+                        <input type="image" id="pokeball" alt="pokeball" src="assets/Pokeball.png">
+                    </div>
+                    <div class="col-sm-2" class="text-center">
+                        <input type="image" id="pokeball" alt="pokeball" src="assets/Pokeball.png">
+                    </div>
+                    <div class="col-sm-2" class="text-center">
+                        <input type="image" id="pokeball" alt="pokeball" src="assets/Pokeball.png">
+                    </div>
+                    <div class="col-sm-2" class="text-center">
+                        <input type="image" id="pokeball" alt="pokeball" src="assets/Pokeball.png">
+                    </div>
+                    <div class="col-sm-2" class="text-center">
+                        <input type="image" id="pokeball" alt="pokeball" src="assets/Pokeball.png">
+                    </div>
+                    <div class="col-sm-2" class="text-center">
+                        <input type="image" id="pokeball" alt="pokeball" src="assets/Pokeball.png">
+                    </div>
+                </div>
+                <div class="row-2">
+                <h2><b><u>Open a Pokeball to See Your Pokemon!</u></b></h2>
+            </div>
+                <img class="whose-that" src="https://media4.giphy.com/media/DRfu7BT8ZK1uo/giphy.gif?cid=790b7611e210bd56533050c23ef0bb8c8659528448ce0396&rid=giphy.gif&ct=g" alt="Loading" title="Whose That Pokemon!?"/>
+            <div class="row-3">
+                <button style="color:#FFF" class="random" syle="content-align:center" class="text-center">Random</button>
+                </div>
+            <div class="row-3">
+                <button class="fire" syle="content-align:center" class="text-center">fire</button>
+            </div>
+            <div class="row-3">
+                <button class="water" syle="content-align:center" class="text-center">water</button>
+            </div>
+            <div class="row-3">
+                <button class="electric" syle="content-align:center" class="text-center">electric</button>
+            </div>
+            <div class="row-3">
+                <button class="grass" syle="content-align:center" class="text-center">grass</button>
+            </div>
+            <div class="row-3">
+                <button class="ice" syle="content-align:center" class="text-center">ice</button>
+            </div>
+            <div class="row-3">
+                <button class="ground" syle="content-align:center" class="text-center">ground</button>
+            </div>
+            <div class="row-3">
+                <button class="flying" syle="content-align:center" class="text-center">flying</button>
+            </div>
+            <div class="row-3">
+                <button class="ghost" syle="content-align:center" class="text-center">ghost</button>
+            </div>
+            <div class="row-3">
+                <button class="rock" syle="content-align:center" class="text-center">rock</button>
+            </div>
+            <div class="row-3">
+                <button class="fighting" syle="content-align:center" class="text-center">fighting</button>
+            </div>
+            <div class="row-3">
+                <button class="poison" syle="content-align:center" class="text-center">poison</button>
+            </div>
+            <div class="row-3">
+                <button class="psychic" syle="content-align:center" class="text-center">psychic</button>
+            </div>
+            <div class="row-3">
+                <button class="bug" syle="content-align:center" class="text-center">bug</button>
+            </div>
+            <div class="row-3">
+                <button class="dark" syle="content-align:center" class="text-center">dark</button>
+            </div>
+            <div class="row-3">
+                <button class="steel" syle="content-align:center" class="text-center">steel</button>
+            </div>
+            <div class="row-3">
+                <button class="dragon" syle="content-align:center" class="text-center">dragon</button>
+            </div>
+            <div class="row-3">
+                <button class="fairy" syle="content-align:center" class="text-center">fairy</button>
+            </div>
+            <div class="row-3">
+                <button class="normal" syle="content-align:center" class="text-center">normal</button>
+            </div>
+            <hr height="50px">
+     </div>
+    </div>
+    </body>
+<footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main.js" async defer></script>
+    <h5 style="text-align:center">Prof Oak's Poke-Team Generator is brought to you by NDL Solutions</h5>
+</footer>
+</html>
+
+
+<!-- adtional links
+- <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f4ada126-ebc6-4d66-9554-908abb7d6eae/d9n0y7l-b28bbb02-9c6c-4d13-88be-33a735ab17cd.jpg/v1/fill/w_1024,h_748,q_75,strp/whos_that_pokemon_by_desenhosdoreu-d9n0y7l.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9mNGFkYTEyNi1lYmM2LTRkNjYtOTU1NC05MDhhYmI3ZDZlYWUvZDluMHk3bC1iMjhiYmIwMi05YzZjLTRkMTMtODhiZS0zM2E3MzVhYjE3Y2QuanBnIiwid2lkdGgiOiI8PTEwMjQiLCJoZWlnaHQiOiI8PTc0OCJ9XV19.30aOfi3aaKHDS8k0l9h-9t83AUtZryD57I_fiTG6Rj4" alt="">
+- <img src="https://c.tenor.com/bDnLivil00YAAAAC/pokemon-poke-ball.gif" alt=""> 
+ -->
+
+ 
