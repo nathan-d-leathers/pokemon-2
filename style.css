@@ -53,7 +53,19 @@ h1 {
     height: auto;
     margin-bottom: 10%;
 
+}
 
+#pokeball_1 {
+    max-width: 115px;
+    min-width: 90px;
+    height: auto;
+    margin-bottom: 10%;
+
+}
+
+h4 {
+    font-family: "Early Gameboy";
+    font-size: 16px;
 }
 
 h2 {
@@ -62,7 +74,7 @@ h2 {
 }
 
 .whose-that {
-    margin-top: 6%;
+    margin-top: 25%;
     margin-bottom: 3%;
     display: block;
     position: relative;
@@ -403,152 +415,3 @@ h2 {
      color: #FFF;
      width: 200px;
  } */
-
-
-
-
-
-/* .container-flex {
-    /* flex-wrap: wrap; */
-    /* justify-content: center } */
-
-
-
-
-
-
-
-/* .type-buttons {
-    /* display: inline-block; */
-    /* margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-
-}  
-
-.clear {
-    clear: both;
-   }
-   */
-
-
-   
-/* .type {
-       /* margin: 0 auto; */
-       /* margin-top: 5px; */
-       /* padding: 20px 36px 20px 36px;
-       display: inline-block;
-       border-radius: 12px; */
-       /* -webkit-border-radius: 12px; 
-       -moz-border-radius: 12px;
-       -o-border-radius: 12px; */
-       /* font-size: 12px;
-       font-family:'Early Gameboy';
-       color: #FFF; */
-       /* background-color: #68A090; */
-       /* border: 4px solid #44685E; */
-       /* width: 100%; 
-       cursor: pointer; */
-   /* } */ 
-   
-   
-   
-/*     
-   .water {
-       background-color: #6890F0;
-       border: 4px solid #445E9C;
-   }
-   
-   .electric {
-       background-color: #F8D030;
-       border: 4px solid #A1871F;
-   }
-   
-   .grass {
-       background-color: #78C850;
-       border: 4px solid #4E8234;
-   }
-   
-   .ice {
-       background-color: #98D8D8;
-       border: 4px solid #638D8D;
-   }
-   
-   .ground {
-       background-color: #E0C068;
-       border: 4px solid #927D44;
-   }
-   
-   .flying {
-       background-color: #A890F0;
-       border: 4px solid #6D5E9C;
-   }
-   
-   .ghost {
-       background-color: #705898;
-       border: 4px solid #493963;
-   }
-   
-   .rock {
-       background-color: #B8A038;
-       border: 4px solid #786824;
-   }
-   
-   .fighting {
-       background-color: #C03028;
-       border: 4px solid #7D1F1A;
-   }
-   
-   .poison {
-       background-color: #A040A0;
-       border: 4px solid #682A68;
-   }
-   
-   .psychic {
-       background-color: #F85888;
-       border: 4px solid #A13959;
-   }
-   
-   .bug {
-       background-color: #A8B820;
-       border: 4px solid #6D7815;
-   }
-   
-   .dark {
-       background-color: #705848;
-       border: 4px solid #49392F;
-   }
-   
-   .steel {
-       background-color: #B8B8D0;
-       border: 4px solid #787887;
-   }
-   
-   .dragon {
-       background-color: #7038F8;
-       border: 4px solid #4924A1;
-   }
-
-   .fairy {
-    background-color: #d875e7;
-    border: 4px solid #4924A1;
-}
-
-    .normal {
-        background-color: #A8A878;
-        border: 4px solid #6D6D4E;
-    } */
- 
-
-/* button {
-        background-color: rgb(245, 227, 29);
-        border: none;
-        color: black;
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        margin: 4px 2px;
-        cursor: pointer;
-        border-radius: 16px;
-} */
